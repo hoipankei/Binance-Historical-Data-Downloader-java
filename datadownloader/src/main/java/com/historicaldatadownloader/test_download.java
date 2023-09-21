@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Main {
+public class test_download {
 
     public static void main(String[] args) {
         String baseUrl = "https://data.binance.vision/data/spot/daily/trades/BTCUSDT/";
