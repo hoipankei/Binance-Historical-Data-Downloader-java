@@ -124,7 +124,7 @@ public class TradeDownloader {
         }
 
         // Process parsed command-line options
-        String tradngType = cmd.getOptionValue("type", BinanceEnums.TradingType.spot.toString()); // Default to UM
+        String tradngType = cmd.getOptionValue("type", BinanceEnums.TradingType.spot.toString()); // Default to spot
         List<String> symbols = cmd.hasOption("symbols") ? Arrays.asList(cmd.getOptionValue("symbols").split(" ")) : BinanceUtility.getAllSymbols(tradngType);
         int numSymbols = symbols.size();
 
